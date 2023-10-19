@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.gh {
+  box-sizing: border-box;
+  background-color:black;
+}
+#animal-photos{
+	background-color:gray;
+	padding:5px;
+	
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+img{
+	border-radius:25px;
+}
+#photo-heading{
+	text-align:center;
+	color:white;
+}
+
